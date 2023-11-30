@@ -1,0 +1,21 @@
+html
+    head
+        //- link(rel='stylesheet' href='./styles.css')
+        link(rel='stylesheet', href='/mycss.css')
+        title= page
+    body
+    div.nav
+        nav
+            a(href='/') Home
+            a(href='/services') Services
+            a(href='/contact') Contact 
+    div.head
+        h1 Welcome to my #{page} page!
+    div.content
+        p I offer a variety of services, including;
+        ul
+            li Web development
+            li Graphic Design
+            li Mentorship
+            li Consulting
+        p Feel free to Contact me today to learn more about our services.

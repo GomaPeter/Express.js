@@ -1,0 +1,22 @@
+html
+    head
+        //- link(rel='stylesheet', href='/styles.css')
+        link(rel='stylesheet', href='/mycss.css')
+        title= page
+    body
+    div.nav
+        nav
+            a(href='/') Home
+            a(href='/services') Services
+            a(href='/contact') Contact
+    div.head
+        h1 Welcome to my contact  page!
+        h1 I'm here to help!
+    form(action="/submit" method="post")
+    input(type="text" name="name" placeholder="Enter your name")
+    <br>
+    input(type="text" name="Email" placeholder="Enter your email")
+    <br>
+    textarea(name="message" placeholder="Your message")
+    <br>
+    input(type="submit" value="Submit")
